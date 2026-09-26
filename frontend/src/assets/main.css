@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: citasmedicas --default;
+}
+
+@plugin "daisyui/theme" {
+  name: "citasmedicas";
+  default: true;
+  color-scheme: light;
+
+  --color-base-100: #F4E9CD;
+  --color-base-200: #EADFC0;
+  --color-base-300: #DCCFA8;
+  --color-base-content: #031926;
+
+  --color-primary: #468189;
+  --color-primary-content: #F4E9CD;
+
+  --color-secondary: #77ACA2;
+  --color-secondary-content: #031926;
+
+  --color-accent: #9DBEBB;
+  --color-accent-content: #031926;
+
+  --color-neutral: #031926;
+  --color-neutral-content: #F4E9CD;
+
+  --color-info: #468189;
+  --color-info-content: #F4E9CD;
+
+  --color-success: #4F7A5E;
+  --color-success-content: #F4E9CD;
+
+  --color-warning: #B8873F;
+  --color-warning-content: #031926;
+
+  --color-error: #A6432E;
+  --color-error-content: #F4E9CD;
+
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 0.75rem;
+
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, .card-title, .font-display {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
